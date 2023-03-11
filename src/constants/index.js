@@ -14,13 +14,16 @@ import {
     mongodb,
     git,
     figma,
-   
+    
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    
+   
+    eCommerce,
+    portfolio, 
+    weather,
+
     threejs,
   } from "../assets";
   
@@ -129,27 +132,67 @@ import {
   
   
   const projects = [
-    // {
-    //   name: "Car Rent",
-    //   description:
-    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "mongodb",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: carrent,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Dev-Portfolio",
+      description:
+        "Welcome to my DevPortfolio Website! This is a website that showcases my portfolio as a developer. It features a collection of my past projects, skills, and work experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/nishantt19/devPortfolio",
+    },
+    {
+      name: "E-Commerce",
+      description:
+        "This is an e-commerce website project that allows customers to browse and purchase products online. It features a user-friendly interface, a product catalog, a shopping cart system, and authentication.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: eCommerce,
+      source_code_link: "https://github.com/nishantt19/e-commerce",
+    },
+   
+    {
+      name: "Weather-App",
+      description:
+        "Web-based platform that allows users to check the weather around them and all over the world at a glance. This weather app allows you to find out a detailed forecast wherever you are, for any time of the day. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/nishantt19/weather-app",
+    },
     
   ];
   
