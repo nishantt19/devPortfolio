@@ -23,7 +23,7 @@ To get a local copy up and running follow these steps:
 
 
 ```
-git clone https://github.com/nishantt19/devportfolio-website.git
+git clone https://github.com/nishantt19/devPortfolio.git
 ```
 
 2. Install the dependencies:
