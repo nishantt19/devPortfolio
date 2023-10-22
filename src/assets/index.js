@@ -11,6 +11,7 @@ import close from "./close.svg";
 import eCommerce from './eCommerce.png';
 import portfolio from './portfolio.png';
 import weather from './weather.png';
+import skipsum from './skipsum.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,11 +26,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import rlogical from "./company/rlogical.png";
+import textify from './company/textify.png';
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nextjs from './tech/nextjs.png';
+import threads from './threads.png';
 
 
 
@@ -59,8 +65,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  
+  rlogical,
+  textify,
+  skipsum,
   eCommerce,
   portfolio,
   weather,
+  nextjs,
+  threads
 };

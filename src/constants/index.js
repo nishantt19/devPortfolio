@@ -15,14 +15,17 @@ import {
     git,
     figma,
     
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-   
+    
+    textify,
+    rlogical,
+    nextjs,
+
+
+   skipsum,
     eCommerce,
     portfolio, 
     weather,
+    threads,
 
     threejs,
   } from "../assets";
@@ -31,6 +34,10 @@ import {
     {
       id: "about",
       title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
     },
     {
       id: "projects",
@@ -48,11 +55,11 @@ import {
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "ReactJS Developer",
       icon: mobile,
     },
     {
-      title: "Frontend Developer",
+      title: "NextJS Developer",
       icon: backend,
     },
     
@@ -78,6 +85,9 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },{
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Redux Toolkit",
@@ -110,39 +120,55 @@ import {
     
   ];
   
-  // const experiences = [
-  //   {
-  //     title: "React.js Developer",
-  //     company_name: "Starbucks",
-  //     icon: starbucks,
-  //     iconBg: "#383E56",
-  //     date: "March 2020 - April 2021",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
+  const experiences = [
+    {
+      title: "Front-End Developer",
+      company_name: "Textify AI",
+      icon: textify,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [
+        "Created admin side and user side platform using NextJS 13.",
+        "Implemented a robust and user-friendly multi-step form using NextJS, resulting in a 30% increase in completion rates for user-provided additional information.",
+        "Developed a Chrome extension using ReactJS and TypeScript, which improved the user experience and provided additional functionality.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Worked with Fast APIs to retrieve, modify data from database.",
+        "Successfully identified and resolved bugs, improving the overall stability and performance of the extension.",
+      ],
+    },
+    {
+      title: "Front-End Developer",
+      company_name: "rLogical Techsoft ",
+      icon: rlogical,
+      iconBg: "#383E56",
+      date: "Dec 2022 - Jan 2023",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Integrated efficient and secure methods to store data and developed 3 new complex components with high level reusability.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Adapted web Debugging tools like Chrome Developer Tools and React-Dev tools.",
+      ],
+    },
     
     
     
-  // ];
+  ];
+  
   
   
   
   const projects = [
     {
-      name: "Dev-Portfolio",
+      name: "Threads",
       description:
-        "Welcome to my DevPortfolio Website! This is a website that showcases my portfolio as a developer. It features a collection of my past projects, skills, and work experience.",
+        "This project is a clone of the popular social media platform Threads, built using the Next.js framework. It allows users to create and join threads, which are essentially discussion groups on specific topics. Users can post comments to threads, and other users can then reply to those comments, creating a threaded conversation.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "three",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
@@ -150,13 +176,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/nishantt19/devPortfolio",
+      image: threads,
+      source_code_link: "https://github.com/nishantt19/threads",
     },
     {
       name: "E-Commerce",
       description:
-        "This is an e-commerce website project that allows customers to browse and purchase products online. It features a user-friendly interface, a product catalog, a shopping cart system, and authentication.",
+        "This e-commerce project allows users to browse and purchase products, add them to their cart, and checkout. The project includes an authentication system so that users can create accounts and log in to manage their orders and purchase history.",
       tags: [
         {
           name: "react",
@@ -176,9 +202,9 @@ import {
     },
    
     {
-      name: "Weather-App",
+      name: "Skip-Sum",
       description:
-        "Web-based platform that allows users to check the weather around them and all over the world at a glance. This weather app allows you to find out a detailed forecast wherever you are, for any time of the day. ",
+        "Skipsum is a website that uses OpenAI's GPT-4 summarizer API to summarize articles and blogs. With Skipsum, you can simply paste the URL of any article or blog you want to summarize, and the summarizer API will provide a concise summary of the article for you. ",
       tags: [
         {
           name: "react",
@@ -189,11 +215,15 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "rapid api",
+          color: "green-text-gradient",
+        },
       ],
-      image: weather,
-      source_code_link: "https://github.com/nishantt19/weather-app",
+      image: skipsum,
+      source_code_link: "https://github.com/nishantt19/skip-sum",
     },
     
   ];
   
-  export { services, technologies,  projects };
+  export { services, technologies,  projects, experiences  };
